@@ -1,6 +1,6 @@
 # [chorke-site-ngular][201]
 
-This is an angular client application to support fontend Symfony projects of [`Chorke, Inc.`][000]. Any Composer based php project can access this project and it's dependencies as following:
+This is an angular client application to support fontend Symfony projects of [`Chorke, Inc.`][000] Any Composer based php project can access this project and it's dependencies as following:
 
 
 ### require config for `composer.json`
@@ -8,7 +8,7 @@ This is an angular client application to support fontend Symfony projects of [`C
 ```json
 {
     "require": {
-        "shahed/chorke-site-ngular": "1.0.*"
+        "chorke/chorke-site-ngular": "1.0.*"
     }
 }
 ```
@@ -102,7 +102,7 @@ printf '\n\033[0;31mcommit/reset\033[0m \033[0;32m%s\033[0m\n' "$m";fi;fi;done
 ### good to know for composer opts
 
 ```bash
-bin/console generate:bundle --namespace=Shahed/Bundle/NgularBundle \
+bin/console generate:bundle --namespace=Chorke/Bundle/NgularBundle \
 --bundle-name=Bundle --format=annotation
 
 ng build --prod --aot --output-hashing=none --vendor-chunk=false \
